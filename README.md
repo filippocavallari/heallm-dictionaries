@@ -1,1 +1,3 @@
-# heallm-dictionaries
+# HEALLM Dictionaries
+
+Data dictionaries and lookup tables for HEALLM project.
