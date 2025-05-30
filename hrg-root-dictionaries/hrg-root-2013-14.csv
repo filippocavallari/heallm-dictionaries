@@ -1,0 +1,926 @@
+hrg_root,hrg_root_description
+AA02,Intracranial Procedures for Trauma with Diagnosis of Intracranial Injury
+AA03,Intracranial Procedures for Trauma with Diagnosis of Head Injury or Skull Fracture
+AA04,"Intracranial Procedures Except Trauma with Non-Transient Stroke or Cerebrovascular Accident, Nervous System Infections or Encephalopathy - category 4"
+AA05,Intracranial Procedures Except Trauma with Haemorrhagic Cerebrovascular Disorders - category 4
+AA06,Intracranial Procedures Except Trauma with Brain Tumours or Cerebral Cysts - category 4
+AA07,Intracranial Procedures Except Trauma with Cerebral Degenerations or Miscellaneous Disorders of Nervous System - category 4
+AA08,"Intracranial Procedures Except Trauma with Muscular, Balance, Cranial or Peripheral Nerve Disorders or Epilepsy - category 4"
+AA09,Intracranial Procedures Except Trauma with Other Diagnoses - category 4
+AA10,"Intracranial Procedures Except Trauma with Non-Transient Stroke or Cerebrovascular Accident, Nervous System Infections or Encephalopathy - category 3"
+AA11,Intracranial Procedures Except Trauma with Haemorrhagic Cerebrovascular Disorders - category 3
+AA12,Intracranial Procedures Except Trauma with Brain Tumours or Cerebral Cysts - category 3
+AA13,Intracranial Procedures Except Trauma with Cerebral Degenerations or Miscellaneous Disorders of Nervous System - category 3
+AA14,"Intracranial Procedures Except Trauma with Muscular, Balance, Cranial or Peripheral Nerve Disorders or Epilepsy - category 3"
+AA15,Intracranial Procedures Except Trauma with Other Diagnoses - category 3
+AA16,"Intracranial Procedures Except Trauma with Non-Transient Stroke or Cerebrovascular Accident, Nervous System Infections or Encephalopathy - category 1 or 2"
+AA17,Intracranial Procedures Except Trauma with Haemorrhagic Cerebrovascular Disorders - category 1 or 2
+AA18,Intracranial Procedures Except Trauma with Brain Tumours or Cerebral Cysts - category 1 or 2
+AA19,Intracranial Procedures Except Trauma with Cerebral Degenerations or Miscellaneous Disorders of Nervous System - category 1 or 2
+AA20,"Intracranial Procedures Except Trauma with Muscular, Balance, Cranial or Peripheral Nerve Disorders or Epilepsy - category 1 or 2"
+AA21,Intracranial Procedures Except Trauma with Other Diagnoses - category 1 or 2
+AA22,"Non-Transient Stroke or Cerebrovascular Accident, Nervous System Infections or Encephalopathy"
+AA23,Haemorrhagic Cerebrovascular Disorders
+AA24,Brain Tumours or Cerebral Cysts
+AA25,Cerebral Degenerations or Miscellaneous Disorders of Nervous System
+AA26,"Muscular, Balance, Cranial or Peripheral Nerve Disorders; Epilepsy; Head Injury"
+AA27,Medical Care of Patients with Alzheimer's Disease
+AA28,Motor Neuron Disease
+AA29,Transient Ischaemic Attack
+AA30,Medical Care of Patients with Multiple Sclerosis
+AA31,"Headache, Migraine or Cerebrospinal Fluid Leak"
+AA32,Neuropsychology Tests with length of stay 2 days or less
+AA33,Conventional EEG/EMG/Nerve Conduction Studies with length of stay 2 days or less
+AA34,Neurophysiological Operations
+AB02,Complex Major Pain Procedures
+AB03,Complex Pain Procedures
+AB04,Major Pain Procedures
+AB05,Intermediate Pain Procedures
+AB06,Minor Pain Procedures
+AB07,Insertion of Neurostimulator or Intrathecal Drug Delivery Device
+AB08,Pain Radiofrequency Treatments
+AB09,Other Specified Pain Procedures
+AB10,Unspecified Pain Procedures
+AB11,Cognitive Behavioural Therapy
+BZ01,Enhanced Cataract Surgery
+BZ02,Phacoemulsification Cataract Extraction and Lens Implant
+BZ03,Non-Phacoemulsification Cataract Surgery
+BZ04,Lens Capsulotomy
+BZ05,Oculoplastics category 3
+BZ06,Oculoplastics category 2
+BZ07,Oculoplastics category 1
+BZ08,Orbits / Lacrimal category 3
+BZ09,Orbits / Lacrimal category 2
+BZ10,Orbits / Lacrimal category 1
+BZ11,Cornea / Sclera - category 3
+BZ12,Cornea / Sclera - category 2
+BZ13,Cornea / Sclera - category 1
+BZ14,Ocular Motility category 3
+BZ15,Ocular Motility category 2
+BZ16,Ocular Motility category 1
+BZ17,Glaucoma - category 3
+BZ18,Glaucoma - category 2
+BZ19,Glaucoma - category 1
+BZ20,Vitreous Retinal Procedures - category 4
+BZ21,Vitreous Retinal Procedures - category 3
+BZ22,Vitreous Retinal Procedures - category 2
+BZ23,Vitreous Retinal Procedures - category 1
+BZ24,Non-Surgical Ophthalmology
+CZ01,Minor Mouth or Throat Procedures
+CZ02,Intermediate Mouth or Throat Procedures
+CZ03,Major Mouth or Throat Procedures
+CZ04,Complex Major Mouth or Throat Procedures
+CZ05,Tonsillectomy
+CZ07,Exteriorisation of Trachea
+CZ08,Minor Ear Procedures
+CZ09,Intermediate Ear Procedures
+CZ10,Major Ear Procedures
+CZ11,Complex Major Ear Procedures
+CZ12,Minor Nose Procedures
+CZ13,Intermediate Nose Procedures
+CZ14,Major Nose Procedures
+CZ15,Complex Major Nose Procedures
+CZ16,Minor Maxillo-Facial Procedures
+CZ17,Intermediate Maxillo-Facial Procedures
+CZ18,Major Maxillo-Facial Procedures
+CZ19,Complex Major Maxillo-Facial Procedures
+CZ20,Complex Major Maxillo-Facial Procedures with Restoration
+CZ21,"Minor Head, Neck and Ear Disorders"
+CZ22,"Intermediate Head, Neck and Ear Disorders"
+CZ23,"Major Head, Neck and Ear Disorders"
+CZ24,"Complex/Major Head, Neck and Ear Disorders"
+CZ25,Cochlear Implants
+CZ27,Fixture for Bone Anchored Hearing Aids
+CZ28,Fitting of Bone Anchored Hearing Aids
+CZ30,Minor Extraction of Tooth
+CZ31,Minor Dental Biopsy
+CZ32,Dental Fitting or Insertion Procedures
+CZ33,Minor Dental Restoration Procedures
+CZ34,Minor Dental Procedures
+CZ35,Adjustment of Dental Device
+CZ36,Dental Excision or Biopsy Procedures
+CZ37,Surgical Removal of Tooth
+CZ38,Creation of Dental Impression
+CZ39,Intermediate Dental Procedures
+CZ40,Major Surgical Removal of Tooth
+CZ41,Major Dental Procedures
+CZ42,Extraction of Multiple Teeth
+DZ01,Lung Transplant
+DZ02,Complex Thoracic Procedures
+DZ03,Major Thoracic Procedures
+DZ04,Intermediate Thoracic Procedures
+DZ06,Minor Thoracic Procedures
+DZ07,Fibre Optic Bronchoscopy
+DZ08,Rigid Bronchoscopy
+DZ09,Pulmonary Embolus
+DZ10,Lung Abscess-Empyema
+DZ11,"Lobar, Atypical or Viral Pneumonia"
+DZ12,Bronchiectasis
+DZ13,Cystic Fibrosis
+DZ14,"Pulmonary, Pleural or Other Tuberculosis"
+DZ15,Asthma
+DZ16,Pleural Effusion
+DZ17,Respiratory Neoplasms
+DZ18,Sleeping Disorders Affecting Breathing
+DZ19,Other Respiratory Diagnoses
+DZ20,Pulmonary Oedema
+DZ21,Chronic Obstructive Pulmonary Disease or Bronchitis
+DZ22,Unspecified Acute Lower Respiratory Infection
+DZ23,Bronchopneumonia
+DZ24,Inhalation Lung Injury or Foreign Body
+DZ25,Fibrosis or Pneumoconiosis
+DZ26,Pneumothorax
+DZ27,Respiratory Failure
+DZ28,Pleurisy
+DZ29,"Granulomatous, Allergic Alveolitis or Autoimmune Lung Disease"
+DZ30,Chest Physiotherapy
+DZ31,Complex Lung Function Exercise Testing
+DZ32,Simple Lung Function Exercise Testing
+DZ33,Hyperbaric Oxygen Treatment
+DZ34,Complex Bronchodilator Studies
+DZ35,Simple Bronchodilator Studies
+DZ36,Bronchial Reactivity Studies
+DZ37,Non-Invasive Ventilation Support Assessment
+DZ38,Oxygen Assessment and Monitoring
+DZ39,Complex Gas Exchange Studies
+DZ40,Simple Gas Exchange Studies
+DZ41,Smoking Cessation Support
+DZ42,TB Nurse Support
+DZ43,Complex Airflow Studies
+DZ44,Simple Airflow Studies
+DZ45,Lung Volume Studies
+DZ46,Respiratory Muscle Strength Studies
+DZ48,Respiratory Drive Studies
+DZ49,Respiratory Nurse and AHP Education/Support
+DZ50,Respiratory Sleep Study
+DZ51,Complex Tuberculosis
+EA01,Heart & Lung Transplant
+EA02,Heart Transplant
+EA03,Pace 1 - Single Chamber or Implantable Diagnostic Device
+EA05,Pace 2 - Dual Chamber
+EA07,Pace 3 - Biventricular and All Congenital Pacemaker Procedures - Resynchronisation Therapy
+EA09,Percutaneous Interventions: Percutaneous Transluminal ASD/VSD/PFO Closure and Valve Insertion
+EA10,Percutaneous Interventions: Balloon Valve Intermediate Interventions and Arterial Duct Closure
+EA11,"Percutaneous Interventions: Other including Septostomy, Embolisations, Non-Coronary Stents and Energy Moderated Perforation"
+EA12,Implantation of Cardioverter - Defibrillator only
+EA14,Coronary Artery Bypass Graft (First Time)
+EA16,"Coronary Artery Bypass Graft (First Time) with Percutaneous Coronary Intervention, Pacing, EP or RFA"
+EA17,Single Cardiac Valve Procedures
+EA19,"Single Cardiac Valve Procedures with Percutaneous Coronary Intervention, Pacing, EP or RFA"
+EA20,Other Complex Cardiac Surgery and Re-do's
+EA22,"Other Complex Cardiac Surgery with Percutaneous Coronary Intervention, Pacing, EP or RFA"
+EA23,Major Complex Congenital Surgery
+EA24,Complex Congenital Surgery
+EA25,Intermediate Congenital Surgery
+EA26,Standard Congenital Surgery
+EA27,Percutaneous Standard EP or Ablation
+EA29,Percutaneous Complex Ablation (includes Atrial Fibrillation or Ventricular Tachycardia)
+EA31,Percutaneous Coronary Intervention (0-2 Stents)
+EA35,Other Percutaneous Interventions
+EA36,Catheter
+EA39,Pacemaker Procedure without Generator Implant (includes Resiting and Removal of Cardiac Pacemaker System)
+EA40,Other Non-Complex Cardiac Surgery
+EA43,Implantation of Prosthetic Heart or Ventricular Assist Device
+EA44,Minor Cardiac Procedures
+EA45,"Complex Echocardiogram (include Congenital, Transoesophageal and Fetal Echocardiography)"
+EA47,Electrocardiogram Monitoring and Stress Testing
+EA48,"Single or Dual Chamber Pacemaker or Implantable Diagnostic Device with Percutaneous Coronary Intervention, EP or RFA"
+EA49,"Percutaneous Coronary Interventions with 3 or more Stents, Rotablation, IVUS or Pressure Wire"
+EA51,Coronary Artery Bypass Graft with Valve Replacement or Repair
+EA52,Repair or Replacement of more than one Heart Valve
+EA53,Transcatheter Aortic Valve Implantation (TAVI)
+EB01,Non-Interventional Acquired Cardiac Conditions
+EB02,Endocarditis
+EB03,Heart Failure or Shock
+EB04,Hypertension
+EB05,Cardiac Arrest
+EB06,Cardiac Valve Disorders
+EB07,Arrhythmia or Conduction Disorders
+EB08,Syncope or Collapse
+EB09,Non-Interventional Congenital Cardiac Conditions
+EB10,Actual or Suspected Myocardial Infarction
+FZ01,Complex Oesophageal Procedures
+FZ02,Very Major Oesophageal Procedures
+FZ04,Very Major Stomach or Duodenum Procedures
+FZ05,Major Stomach or Duodenum Procedures
+FZ08,Complex Large Intestine Procedures
+FZ09,Proximal Colon Procedures
+FZ10,Distal Colon Procedures
+FZ11,Large Intestine - Major Procedures
+FZ12,General Abdominal - Very Major or Major Procedures
+FZ13,General Abdominal - Diagnostic Procedures
+FZ14,Complex Procedures for Inflammatory Bowel Disease
+FZ15,Major Procedures for Inflammatory Bowel Disease
+FZ16,Very Major Procedures for Gastrointestinal Bleed
+FZ17,Abdominal Hernia Procedures
+FZ18,Inguinal Umbilical or Femoral Hernia Repairs
+FZ19,Herniotomy Procedures
+FZ20,Appendicectomy Procedures
+FZ21,Major Anal Procedures
+FZ22,Intermediate Anal Procedures
+FZ23,Minor Anal Procedures
+FZ24,Major Therapeutic Open or Endoscopic Procedures
+FZ25,Therapeutic Endoscopic or Intermediate Stomach or Duodenum Procedures
+FZ27,Endoscopic or Intermediate General Abdominal Procedures
+FZ28,Endoscopic or Intermediate Procedures for Inflammatory Bowel Disease
+FZ29,Major or Therapeutic Endoscopic Procedures for Gastrointestinal Bleed
+FZ30,Diagnostic Endoscopic or Intermediate Procedures for Gastrointestinal Bleed
+FZ31,Disorders of the Oesophagus
+FZ33,Small Intestinal Disorders (excluding Inflammatory Bowel Disease)
+FZ36,Intestinal Infectious Disorders
+FZ37,Inflammatory Bowel Disease
+FZ38,Gastrointestinal Bleed
+FZ39,Hernia Disorders
+FZ40,Appendix Disorders
+FZ41,Anal Disorders
+FZ42,Wireless Capsule Endoscopy
+FZ43,Non-Malignant Stomach or Duodenum Disorders
+FZ44,Malignant Stomach or Duodenum Disorders
+FZ45,Non-Malignant Large Intestinal Disorders
+FZ46,Malignant Large Intestinal Disorders
+FZ47,Non-Malignant General Abdominal Disorders
+FZ48,Malignant General Abdominal Disorders
+FZ49,Disorders of Nutrition
+FZ50,Intermediate Large Intestine Procedures 19 years and over
+FZ51,Diagnostic Colonoscopy 19 years and over
+FZ52,Diagnostic Colonoscopy with biopsy 19 years and over
+FZ53,Therapeutic Colonoscopy 19 years and over
+FZ54,Diagnostic Flexible Sigmoidoscopy 19 years and over
+FZ55,Diagnostic Flexible Sigmoidoscopy with biopsy 19 years and over
+FZ56,Therapeutic Flexible Sigmoidoscopy 19 years and over
+FZ57,Diagnostic or Therapeutic Rigid Sigmoidoscopy 19 years and over
+FZ58,Endoscopic or Intermediate Large Intestine Procedures 18 years and under
+FZ59,Intermediate Procedures on the Upper GI Tract 19 years and over
+FZ60,Diagnostic Endoscopic Procedures on the Upper GI Tract 19 years and over
+FZ61,Diagnostic Endoscopic Procedures on the Upper GI Tract with biopsy 19 years and over
+FZ62,Diagnostic and Intermediate Procedures on the Upper GI Tract 18 years and under
+FZ63,Combined Upper and Lower GI Tract Diagnostic Endoscopic Procedures
+FZ64,Combined Upper and Lower GI Tract Diagnostic Endoscopic Procedures with biopsy
+FZ65,Combined Upper and Lower GI Tract Therapeutic Endoscopic Procedures
+FZ66,Very Major Small Intestine Procedures 19 years and over
+FZ67,Major Small Intestine Procedures 19 years and over
+FZ68,Very Major and Major Small Intestine Procedures 18 years and under
+GA01,Hepatobiliary Transplant
+GA03,Hepatobiliary Procedures category 7
+GA04,Hepatobiliary Procedures category 6
+GA05,Hepatobiliary Procedures category 5
+GA06,Hepatobiliary Procedures category 4
+GA07,Hepatobiliary Procedures category 3
+GA10,Cholecystectomy
+GA11,Pancreatic Necrosectomy
+GA12,Multi-Organ and Multiple Transplants
+GA13,Hepatobiliary Procedures category 1 or 2
+GB01,Endoscopic/Radiology category 4
+GB02,Endoscopic/Radiology category 3
+GB03,Endoscopic/Radiology category 2
+GB04,Endoscopic/Radiology category 1
+GB05,Endoscopic Retrograde Cholangiopancreatography category 3
+GB06,Endoscopic Retrograde Cholangiopancreatography category 2
+GB07,Endoscopic Retrograde Cholangiopancreatography category 1
+GC01,Liver Failure Disorders
+GC12,Malignant Liver and Pancreatic Disorders
+GC15,Non-Malignant Liver Disorders
+GC16,Non-Malignant Pancreatic and Biliary Disorders
+HA11,Major Hip Procedures category 2 for Trauma
+HA12,Major Hip Procedures category 1 for Trauma
+HA13,Intermediate Hip Procedures for Trauma
+HA14,Minor Hip Procedures for Trauma
+HA21,Major Knee Procedures category 2 for Trauma
+HA22,Major Knee Procedures category 1 for Trauma
+HA23,Intermediate Knee Procedures category 2 for Trauma
+HA24,Intermediate Knee Procedures category 1 for Trauma
+HA25,Minor Knee Procedures category 2 for Trauma
+HA26,Minor Knee Procedures category 1 for Trauma
+HA31,Major Foot Procedures for Trauma
+HA32,Intermediate Foot Procedures for Trauma category 2
+HA33,Intermediate Foot Procedures for Trauma category 1
+HA34,Minor Foot Procedures for Trauma category 2
+HA35,Minor Foot Procedures for Trauma category 1
+HA51,Major Hand Procedures for Trauma category 2
+HA52,Major Hand Procedures for Trauma category 1
+HA53,Intermediate Hand Procedures for Trauma category 2
+HA54,Intermediate Hand Procedures for Trauma category 1
+HA55,Minor Hand Procedures for Trauma category 2
+HA56,Minor Hand Procedures for Trauma category 1
+HA61,Major Shoulder and Upper Arm Procedures for Trauma
+HA62,Intermediate Shoulder and Upper Arm Procedures for Trauma
+HA63,Minor Shoulder and Upper Arm Procedures for Trauma
+HA71,Major Elbow and Lower Arm Procedures for Trauma
+HA72,Intermediate Elbow and Lower Arm Procedures for Trauma
+HA73,Minor Elbow and Lower Arm Procedures for Trauma
+HA81,"Sprains, Strains, or Minor Open Wounds"
+HA82,"Major Cranial, Visceral or Blood Vessel Injury"
+HA83,Head Injury
+HA91,Hip Trauma Diagnosis without Procedure
+HA92,Knee Trauma Diagnosis without Procedure
+HA93,Foot Trauma Diagnosis without Procedure
+HA94,Arm Trauma Diagnosis without Procedure
+HA95,Hand Trauma Diagnosis without Procedure
+HA96,Multiple Trauma Diagnoses without Procedure
+HA97,Other Trauma Diagnosis without Procedure
+HA99,Other Procedures for Trauma
+HB11,Major Hip Procedures for Non-Trauma category 2
+HB12,Major Hip Procedures for Non-Trauma category 1
+HB13,Intermediate Hip Procedures for Non-Trauma category 2
+HB14,Intermediate Hip Procedures for Non-Trauma category 1
+HB15,Minor Hip Procedures for Non-Trauma category 2
+HB16,Minor Hip Procedures for Non-Trauma category 1
+HB21,Major Knee Procedures for Non-Trauma category 2
+HB22,Major Knee Procedures for Non-Trauma category 1
+HB23,Intermediate Knee Procedures for Non-Trauma
+HB24,Minor Knee Procedures for Non-Trauma category 2
+HB25,Minor Knee Procedures for Non-Trauma category 1
+HB31,Major Foot Procedures for Non-Trauma
+HB32,Intermediate Foot Procedures for Non-Trauma category 2
+HB33,Intermediate Foot Procedures for Non-Trauma category 1
+HB34,Minor Foot Procedures for Non-Trauma category 2
+HB35,Minor Foot Procedures for Non-Trauma category 1
+HB51,Major Hand Procedures for Non-Trauma category 2
+HB52,Major Hand Procedures for Non-Trauma category 1
+HB53,Intermediate Hand Procedures for Non-Trauma category 2
+HB54,Intermediate Hand Procedures for Non-Trauma category 1
+HB55,Minor Hand Procedures for Non-Trauma category 2
+HB56,Minor Hand Procedures for Non-Trauma category 1
+HB61,Major Shoulder and Upper Arm Procedures for Non-Trauma
+HB62,Intermediate Shoulder and Upper Arm Procedures for Non-Trauma
+HB63,Minor Shoulder and Upper Arm Procedures for Non-Trauma
+HB71,Major Elbow and Lower Arm Procedures for Non-Trauma
+HB72,Intermediate Elbow and Lower Arm Procedures for Non-Trauma
+HB73,Minor Elbow and Lower Arm Procedures for Non-Trauma
+HB91,Other Non-Trauma Diagnosis without Procedure
+HB99,Other Procedures for Non-Trauma
+HC01,Extradural Spine Major 2
+HC02,Extradural Spine Major 1
+HC03,Extradural Spine Intermediate 2
+HC04,Extradural Spine Intermediate 1
+HC05,Extradural Spine Minor 2
+HC06,Extradural Spine Minor 1
+HC07,Intradural Spine Major 2
+HC08,Intradural Spine Major 1
+HC09,Intradural Spine Intermediate 2
+HC10,Intradural Spine Intermediate 1
+HC11,Intradural Spine Minor 2
+HC12,Intradural Spine Minor 1
+HC20,Vertebral Column Injury without Procedure
+HC21,Spinal Cord Injury without Procedure
+HC26,Scoliosis or Other Spinal Deformity
+HC27,Degenerative Spinal Conditions
+HC28,Spinal Cord Conditions
+HC29,Inflammatory Spinal Conditions
+HC30,Spinal Tumours
+HC31,Spinal Infection
+HD21,Soft Tissue Disorders
+HD23,"Inflammatory Spine, Joint or Connective Tissue Disorders"
+HD24,Non-Inflammatory Bone or Joint Disorders
+HD25,Infections of Bones or Joints
+HD26,Musculoskeletal Signs and Symptoms
+HD39,Pathological Fractures
+HD40,Malignancy of Bone and Connective Tissue
+HR01,Reconstruction Procedures Category 6
+HR02,Reconstruction Procedures Category 5
+HR03,Reconstruction Procedures Category 4
+HR04,Reconstruction Procedures Category 3
+HR05,Reconstruction Procedures Category 2
+HR06,Reconstruction Procedures Category 1
+JA03,Pedicled TRAM Reconstruction of Breast
+JA05,Pedicled Myocutaneous Breast Reconstruction with or without Insertion of Prosthesis
+JA06,Major Breast Procedures category 3
+JA07,Major Breast Procedures category 2
+JA08,Major Breast Procedures category 1
+JA09,Intermediate Breast Procedures
+JA12,Malignant Breast Disorders
+JA13,Non-Malignant Breast Disorders
+JA14,Free Perforator Flap Breast Reconstruction
+JA15,Minor Breast Procedures
+JA16,Mastectomy with Breast Reconstruction
+JB01,"Major Burn, Third Degree or more than 19% TBSA or Affecting Multiple Body Regions"
+JB11,Other Burn with Multiple Significant Graft Procedures
+JB12,Other Burn with One Significant Graft Procedure
+JB13,Other Burn with Other Procedure
+JB21,Other Burn without Other Procedure
+JC01,Major Multiple Skin Procedures
+JC02,Major Skin Procedures category 2
+JC03,Major Skin Procedures category 1
+JC04,Intermediate Skin Procedures category 2
+JC05,Intermediate Skin Procedures category 1
+JC06,Minor Skin Procedures category 2
+JC07,Minor Skin Procedures category 1
+JC09,Patch Tests
+JC10,Specified Skin Examinations and Investigations
+JC11,Other Diagnostic Skin Tests
+JC12,Urticaria tests
+JC13,Photo Tests
+JC14,Skin Therapies level 2
+JC15,Skin Therapies level 3
+JC16,Skin Therapies level 4
+JC17,Skin Therapies level 5
+JC18,Electrical and Other Invasive Therapy 2
+JC19,Electrical and Other Invasive Therapy 4
+JC20,Electrical and Other Invasive Therapy 3
+JC27,Nursing Procedures and Dressings 1
+JC29,Phototherapy
+JC30,Minor Laser Therapy
+JC32,Photochemotherapy
+JD01,Major Skin Disorders category 2
+JD02,Major Skin Disorders category 1
+JD03,Intermediate Skin Disorders category 2
+JD04,Intermediate Skin Disorders category 1
+JD05,Minor Skin Disorders category 2
+JD06,Minor Skin Disorders category 1
+KA03,Parathyroid Procedures
+KA04,Adrenal Procedures
+KA05,Anterior Pituitary Disorders
+KA06,Non Pituitary Neoplasia and Hypoplasia
+KA07,Non-Surgical Thyroid Disorders
+KA08,Other Endocrine Disorders
+KA09,Thyroid Procedures
+KB01,Diabetes with Hypoglycaemic Disorders
+KB02,Diabetes with Hyperglycaemic Disorders
+KB03,Diabetes with Lower Limb Complications
+KC04,Inborn Errors of Metabolism
+KC05,Fluid and Electrolyte Disorders
+LA01,Kidney Transplant from Cadaver non-Heart beating donor
+LA02,Kidney Transplant from Cadaver Heart beating donor
+LA03,Kidney Transplant from Live donor
+LA04,Kidney or Urinary Tract Infections
+LA05,Renal Replacement Peritoneal Dialysis Associated Procedures
+LA07,Acute Kidney Injury
+LA08,Chronic Kidney Disease
+LA09,General Renal Disorders
+LA10,Live Kidney Donor Screening
+LA11,Kidney Pre-Transplantation Work-up of Live Donor
+LA12,Kidney Pre-Transplantation Work-up of Recipient
+LA13,Examination for Post-Transplantation of Kidney of Recipient
+LA14,Examination for Post-Transplantation of Kidney of Live Donor
+LB01,Percutaneous Nephrostomy
+LB02,Kidney Major Open Procedure
+LB03,Laparoscopic Operations on Kidney and Ureter
+LB04,Kidney Major Endoscopic Procedure
+LB05,"Kidney Intermediate, Endoscopic and Percutaneous Interventions"
+LB06,"Kidney, Urinary Tract and Prostate Neoplasms"
+LB07,Ureter Open Procedure
+LB08,Ureter Major Endoscopic Procedures
+LB09,Ureter Intermediate Endoscopic Procedures
+LB10,Bladder Major Open Procedures / Reconstruction
+LB11,Urinary Diversion without Cystectomy
+LB12,Bladder Intermediate Open Procedure
+LB13,Bladder Major Endoscopic Procedure
+LB14,Bladder Intermediate Endoscopic Procedure
+LB15,Bladder Minor Procedure
+LB16,Urinary Incontinence and Other Urinary Problems
+LB17,Introduction of Therapeutic Substance into Bladder
+LB18,Attention to Suprapubic Bladder Catheter
+LB19,Ureteric / Bladder Disorders
+LB20,"Infection and Mechanical Problems Related to Genito-Urinary Prostheses, Implants and Grafts"
+LB21,Bladder Neck Open Procedures - Male
+LB22,Laparoscopic Bladder Neck Procedures - Male
+LB25,Prostate Transurethral Resection Procedure
+LB26,Prostate or Bladder Neck Intermediate Endoscopic Procedure - Male and Female
+LB27,Prostate or Bladder Neck Minor Endoscopic Procedure - Male
+LB28,Non-Malignant Prostate Disorders
+LB29,Urethra Major Open Procedures
+LB33,Vasectomy Procedures
+LB35,"Scrotum, Testis or Vas Deferens Disorders"
+LB36,Extracorporeal Lithotripsy
+LB37,Miscellaneous Urinary Tract Findings
+LB38,Unspecified Haematuria
+LB39,Cystectomy with Urinary Diversion and Reconstruction
+LB40,Urinary Tract Stone Disease
+LB42,Dynamic Studies of Urinary Tract
+LB43,Treatment of Erectile Dysfunction
+LB46,Live Donation of Kidney
+LB47,Penis Major Open Procedures
+LB48,Penis Intermediate Open Procedures
+LB49,High Intensity Focused Ultrasound  - Male and Female
+LB50,Implantation of Artificial Urinary Sphincter  - Male and Female
+LB51,Vaginal Tape Operations for Urinary Incontinence
+LB52,"Scrotum, Testis or Vas Deferens Major Open Procedures"
+LB53,"Scrotum, Testis or Vas Deferens Intermediate Open Procedures"
+LB54,"Scrotum, Testis or Vas Deferens Minor Procedures"
+LB55,Urethra Intermediate / Minor Procedures
+LB56,Penis Minor Procedures
+LB57,Urethral Disorders
+LB58,Penile Disorders
+LB59,Bladder Neck Open and Laparoscopic Procedures - Female
+LB74,Implantation of Penile Prosthesis
+LD01,Hospital Haemodialysis/Filtration with Access via Haemodialysis Catheter
+LD02,Hospital Haemodialysis/Filtration with Access via Arteriovenous Fistula or Graft
+LD03,Hospital Haemodialysis/Filtration with Access via Haemodialysis Catheter with Blood Borne Virus
+LD04,Hospital Haemodialysis/Filtration with Access via Arteriovenous Fistula or Graft with Blood Borne Virus
+LD05,Satellite Haemodialysis/Filtration with Access via Haemodialysis Catheter
+LD06,Satellite Haemodialysis/Filtration with Access via Arteriovenous Fistula or Graft
+LD07,Satellite Haemodialysis/Filtration with Access via Haemodialysis Catheter with Blood Borne Virus
+LD08,Satellite Haemodialysis/Filtration with Access via Arteriovenous Fistula or Graft with Blood Borne Virus
+LD09,Home Haemodialysis/Filtration with Access via Haemodialysis Catheter
+LD10,Home Haemodialysis/Filtration with Access via Arteriovenous Fistula or Graft
+LD11,Continuous Ambulatory Peritoneal Dialysis
+LD12,Automated Peritoneal Dialysis
+LD13,Assisted Automated Peritoneal Dialysis
+MA01,Lower and Upper Genital Tract Very Complex Major Procedures
+MA02,Lower and Upper Genital Tract Complex Major Procedures
+MA03,Lower Genital Tract Major Procedures
+MA04,Lower Genital Tract Intermediate Procedures
+MA06,Open Major Upper and Lower Genital Tract Procedures with malignancy
+MA07,Upper Genital Tract Major Procedures
+MA08,Upper Genital Tract Laparoscopic / Endoscopic Major Procedures
+MA09,Upper Genital Tract Laparoscopic / Endoscopic Intermediate Procedures
+MA10,Upper Genital Tract Laparoscopic / Endoscopic Minor Procedures
+MA11,Upper Genital Tract Intermediate Procedures
+MA12,Resection and Ablation Procedures for Intra-Uterine Lesions
+MA17,Dilation and Evacuation
+MA18,Medical Termination of Pregnancy
+MA19,Vacuum Aspiration with Cannula
+MA20,Medical or Surgical Termination of Pregnancy - 20 weeks gestation or more
+MA21,Diagnostic Hysteroscopy
+MA22,Lower Genital Tract Minor Procedures - Category 1
+MA23,Lower Genital Tract Minor Procedures - Category 2
+MA24,Upper Genital Tract Minor Procedures - Category 1
+MA25,Upper Genital Tract Minor Procedures - Category 2
+MB01,Lower Genital Tract Disorders
+MB02,Genital Prolapse or Incontinence
+MB03,"Uterus (including Fibroids) Disorders, Menstrual Disorders or Endometriosis"
+MB04,"Ovary, Fallopian Tube or Pelvic Disorders"
+MB05,Gynaecological Malignancy
+MB06,Other Gynaecological Conditions
+MB07,Gynaecological Fistula Conditions
+MB08,Threatened or Spontaneous Miscarriage
+MC06,Collection of Sperm
+MC07,Intra-Uterine Insemination with Super Ovulation
+MC08,Intra-Uterine Insemination with Super Ovulation with Donor
+MC09,Intra-Uterine Insemination without Super Ovulation
+MC10,Intra-Uterine Insemination without Super Ovulation with Donor
+MC11,Implantation of Embryo
+MC12,Oocyte Recovery
+MC13,Donor Oocyte Recovery
+MC14,Oocyte Recovery with Intracytoplasmic Sperm Injection
+MC15,Oocyte Recovery with Pre-Implantation Genetic Diagnosis
+NZ04,Ante-natal or Post-natal Observation with length of stay 0 days
+NZ05,Ante-natal or Post-natal Investigation with length of stay 0 days
+NZ06,Ante-natal or Post-natal Full Investigation with length of stay 0 days
+NZ07,Ante-natal or Post-natal Observation with length of stay 1 day or more
+NZ08,Ante-natal or Post-natal Investigation with length of stay 1 day or more
+NZ09,Ante-natal or Post-natal Full Investigation with length of stay 1 day or more
+NZ10,Diagnostic and Therapeutic Procedures on Fetus
+NZ11,Normal Delivery
+NZ12,Assisted Delivery
+NZ13,Planned Lower Uterine Caesarean Section
+NZ14,Emergency or Upper Uterine Caesarean Section
+NZ15,"Caesarean Section with Eclampsia, Pre-eclampsia or Placenta Praevia"
+PA01,Nervous System Disorders
+PA02,Epilepsy Syndrome
+PA03,Febrile Convulsions
+PA04,Headaches and Migraines
+PA05,Developmental Disorders
+PA06,Head Injury with Intracranial Injury
+PA07,Head Injury without Intracranial Injury
+PA08,Intermediate Injury without Intracranial Injury
+PA11,Acute Upper Respiratory Tract Infection and Common Cold
+PA12,Asthma or Wheezing
+PA13,Cystic Fibrosis
+PA14,Lower Respiratory Tract Disorders without Acute Bronchiolitis
+PA15,Acute Bronchiolitis
+PA16,Major Infections
+PA17,Intermediate Infections
+PA18,Minor Infections
+PA19,Viral Infections
+PA20,Fever Unspecified
+PA21,Infectious and Non-Infectious Gastroenteritis
+PA22,Chest Pain
+PA23,Cardiac Conditions
+PA24,Arrhythmia or Conduction Disorders
+PA25,Major Gastrointestinal or Metabolic Disorders
+PA26,Other Gastrointestinal or Metabolic Disorders
+PA27,Inflammatory Bowel Disease
+PA28,Feeding Difficulties and Vomiting
+PA29,Abdominal Pain
+PA30,Faltering Growth (Failure to Thrive)
+PA31,Major Injury without Intracranial Injury
+PA32,Minor Injury without Intracranial Injury
+PA34,Musculoskeletal or Connective Tissue Disorders
+PA35,Skin Disorders
+PA36,Endocrine Disorders (excluding Diabetes Mellitus)
+PA38,Renal Disease with Renal Failure
+PA40,Acute Lymphoblastic Leukaemia with length of stay 1 day or more
+PA41,Other Haematological Malignancies with length of stay 1 day or more
+PA42,Brain Tumours with length of stay 1 day or more
+PA43,Other Neoplasms with length of stay 1 day or more
+PA44,Neoplasm Diagnoses with length of stay 0 days
+PA45,Febrile Neutropenia with Malignancy
+PA46,Paediatric Thalassaemia
+PA47,Sickle-cell Anaemia with Crisis
+PA48,Blood Cell Disorders
+PA49,Coagulation Disorders
+PA50,Ingestion Poisoning or Allergies
+PA51,Child Safeguarding (Welfare and Protection)
+PA52,Behavioural Disorders
+PA53,Eating Disorders
+PA54,Convalescent or Other Relief Care
+PA55,Respite Care
+PA56,Paediatric Admission for Unexplained Symptoms
+PA57,"Examination, Follow-up, Special Screening and Other Admissions with length of stay 1 day or more"
+PA58,"Examination, Follow-up, Special Screening and Other Admissions with length of stay 0 days"
+PA59,Major Congenital Conditions
+PA60,Other Congenital Conditions
+PA62,Syncope and Collapse
+PA63,"Head, Neck and Ear Disorders"
+PA64,Non-Surgical Ophthalmology
+PA65,Upper Respiratory Tract Disorders
+PA66,Rash or Other Non-Specific Skin Eruption
+PA67,Diabetes Mellitus with Ketoacidosis or Coma
+PA68,Diabetes Mellitus without Ketoacidosis or Coma
+PA69,Nephritic and Nephrotic Renal Diseases
+PA70,Other Renal Diseases
+PB01,Major Neonatal Diagnoses
+PB02,Minor Neonatal Diagnoses
+PB03,Healthy Baby
+QZ01,Aortic or Abdominal Surgery
+QZ02,Lower Limb Arterial Surgery
+QZ03,Bypasses to Tibial Arteries
+QZ04,Extracranial or Upper Limb Arterial Surgery
+QZ05,Miscellaneous Vascular Procedures
+QZ07,Redo Bilateral Varicose Vein Procedures
+QZ08,Redo Unilateral Varicose Vein Procedures
+QZ09,Primary Bilateral Varicose Vein Procedures
+QZ10,Primary Unilateral Varicose Vein Procedures
+QZ11,Amputations
+QZ12,"Foot Procedures for Diabetes or Arterial Disease, and Procedures to Amputation Stumps"
+QZ13,Vascular Access for Renal Replacement Therapy
+QZ14,Vascular Access except for Renal Replacement Therapy
+QZ15,Therapeutic Endovascular Procedures
+QZ16,Diagnostic Vascular Radiology and Other Transluminal Diagnostic Procedures
+QZ17,Non-Surgical Peripheral Vascular Disease
+QZ19,Blood Vessel Injury with No Significant Procedure
+QZ20,Deep Vein Thrombosis
+RA01,"Magnetic Resonance Imaging Scan, one area, no contrast"
+RA02,"Magnetic Resonance Imaging Scan, one area, post contrast only"
+RA03,"Magnetic Resonance Imaging Scan, one area, pre and post contrast"
+RA04,"Magnetic Resonance Imaging Scan, two - three areas, no contrast"
+RA05,"Magnetic Resonance Imaging Scan, two - three areas, with contrast"
+RA06,"Magnetic Resonance Imaging Scan, more than three areas"
+RA07,"Magnetic Resonance Imaging Scan, requiring extensive patient repositioning and/or more than one contrast agent"
+RA08,"Computerised Tomography Scan, one area, no contrast"
+RA09,"Computerised Tomography Scan, one area with post contrast only"
+RA10,"Computerised Tomography Scan, one area, pre and post contrast"
+RA11,"Computerised Tomography Scan, two areas without contrast"
+RA12,"Computerised Tomography Scan, two areas with contrast"
+RA13,"Computerised Tomography Scan, three areas with contrast"
+RA14,"Computerised Tomography Scan, more than three areas"
+RA15,Dexa Scan
+RA16,Contrast Fluoroscopy Procedures less than 20 minutes
+RA17,Contrast Fluoroscopy Procedures 20 - 40 minutes
+RA18,Contrast Fluoroscopy Procedures more than 40 minutes
+RA19,Mobile / Intraoperative Contrast Fluoroscopy Procedures less than 20 minutes
+RA20,Mobile / Intraoperative Contrast Fluoroscopy Procedures 20 - 40 minutes
+RA21,Mobile / Intraoperative Contrast Fluoroscopy Procedures more than 40 minutes
+RA23,Ultrasound Scan less than 20 minutes
+RA24,Ultrasound Scan more than 20 minutes
+RA25,Ultrasound Mobile Scan / Intraoperative Procedures less than 20 minutes
+RA26,Ultrasound Mobile Scan / Intraoperative Procedures 20 to 40 minutes
+RA27,Ultrasound Mobile Scan / Intraoperative Procedures more than 40 minutes
+RA35,Nuclear Medicine - category 1
+RA36,Nuclear Medicine - category 2
+RA37,Nuclear Medicine - category 3
+RA38,Nuclear Medicine - category 4
+RA39,Nuclear Medicine - category 5
+RA40,Nuclear Medicine - category 6
+RA42,Nuclear Medicine - category 8
+RA50,"Computerised Tomography Scan, three areas without contrast"
+RA60,Simple Echocardiogram
+RA65,"Cardiac Magnetic Resonance Imaging Scan, no contrast"
+RA66,"Cardiac Magnetic Resonance Imaging Scan, post contrast only"
+RA67,"Cardiac Magnetic Resonance Imaging Scan, pre and post contrast"
+RA68,Cardiac Computerised Tomography Scan
+RC01,IR Procedures - Uroradiology - Major
+RC02,IR Procedures - Uroradiology - Intermediate
+RC03,IR Procedures - Uroradiology - Minor
+RC11,Endovascular Stent Graft for Ruptured Abdominal Aortic Aneurysm
+RC12,Infrarenal or Aorto-Uni-Iliac Endovascular Stent Graft for Non-Ruptured Abdominal Aortic Aneurysm
+RC13,Other Endovascular Stent Graft for Non-Ruptured Abdominal Aortic Aneurysm
+RC14,IR Procedures - Vascular - Major
+RC15,IR Procedures - Vascular - Intermediate
+RC16,IR Procedures - Vascular - Minor
+RC31,IR Procedures - Hepatobiliary - Major
+RC32,IR Procedures - Hepatobiliary - Intermediate
+RC33,IR Procedures - Hepatobiliary - Minor
+RC41,Interventional Radiology - Obs & Gynae - Uterine Fibroid Embolisation
+RC42,IR Procedures - Obstetrics and Gynaecology - Major
+RC51,IR Procedures - Neurology - Major
+SA01,Aplastic Anaemia
+SA02,Coagulation Defect
+SA03,Haemolytic Anaemia
+SA04,Iron Deficiency Anaemia
+SA05,Megaloblastic Anaemia
+SA06,Myelodysplastic Syndrome
+SA07,Myeloproliferative Disorder
+SA08,Other Haematological or Splenic Disorders
+SA09,Other Red Blood Cell Disorders
+SA10,Sickle Cell Anaemia
+SA11,Thalassaemia
+SA12,Thrombocytopenia
+SA13,"Single Plasma Exchange, Leucopheresis or Red Cell Exchange"
+SA14,Plasma Exchanges 2 to 9
+SA15,Plasma Exchanges 10 to 19
+SA16,Plasma Exchanges 20 or more
+SA17,Malignant Disorders of Lymphatic/Haematological Systems
+SA18,Bone Marrow Harvest
+SA19,Bone Marrow Transplant - Autograft
+SA20,Bone Marrow Transplant - Allogeneic Graft (Sibling)
+SA21,Bone Marrow Transplant - Allogeneic Graft (Volunteer Unrelated Donor)
+SA22,Bone Marrow Transplant - Allogeneic Graft (Cord Blood)
+SA23,Bone Marrow Transplant - Allogeneic Graft (Haplo-Identical)
+SA24,Acute Lymphoblastic Leukaemia
+SA25,Acute Myeloid Leukaemia
+SA26,Peripheral Blood Stem Cell Transplant - Autologous
+SA27,Peripheral Blood Stem Cell Transplant - Syngeneic
+SA28,Peripheral Blood Stem Cell Transplant - Allogeneic
+SA30,Plasma Cell Disorders
+SA31,Malignant Lymphoma (including Hodgkin's and Non-Hodgkin's)
+SA32,Chronic Lymphocytic Leukaemia and Related Disorders
+SA33,Diagnostic Bone Marrow Extraction
+SA34,Peripheral Blood Stem Cell Harvest
+SA99,Dummy for SC with crisis
+SB01,Procure Chemotherapy Drugs for Regimens in Band 1
+SB02,Procure Chemotherapy Drugs for Regimens in Band 2
+SB03,Procure Chemotherapy Drugs for Regimens in Band 3
+SB04,Procure Chemotherapy Drugs for Regimens in Band 4
+SB05,Procure Chemotherapy Drugs for Regimens in Band 5
+SB06,Procure Chemotherapy Drugs for Regimens in Band 6
+SB07,Procure Chemotherapy Drugs for Regimens in Band 7
+SB08,Procure Chemotherapy Drugs for Regimens in Band 8
+SB09,Procure Chemotherapy Drugs for Regimens in Band 9
+SB10,Procure Chemotherapy Drugs for Regimens in Band 10
+SB11,Deliver Exclusively Oral Chemotherapy
+SB12,Deliver Simple Parenteral Chemotherapy at first attendance
+SB13,Deliver more Complex Parenteral Chemotherapy at first attendance
+SB14,"Deliver Complex Chemotherapy, including Prolonged Infusional Treatment at first attendance"
+SB15,Deliver Subsequent Elements of a Chemotherapy Cycle
+SB16,Procure Chemotherapy Drugs for Regimens not on the National List
+SB17,Deliver Chemotherapy for Regimens not on the National List
+SB97,Same Day Chemotherapy Admission or Attendance
+SC21,Deliver a Fraction of Treatment on a Superficial or Orthovoltage Machine
+SC22,Deliver a Fraction of Treatment on a Megavoltage Machine
+SC23,Deliver a Fraction of Complex Treatment on a Megavoltage Machine
+SC24,Deliver a Fraction of Radiotherapy on a Megavoltage Machine using General Anaesthetic
+SC25,Deliver a Fraction of Total Body Irradiation
+SC26,Deliver a Fraction of Intracavitary Radiotherapy without General Anaesthetic
+SC27,Deliver a Fraction of Intracavitary Radiotherapy with General Anaesthetic
+SC28,Deliver a Fraction of Interstitial Radiotherapy
+SC29,Other Radiotherapy Treatment
+SC30,Deliver a Fraction of Intraluminal Brachytherapy
+SC31,Deliver a Fraction of Adaptive Radiotherapy on a Megavoltage Machine
+SC40,Preparation for Intensity Modulated Radiation Therapy
+SC41,"Preparation for Intensity Modulated Radiation Therapy, with Technical Support"
+SC42,Preparation for Total Body Irradiation
+SC43,"Preparation for Total Body Irradiation, with Technical Support"
+SC44,Preparation for Hemi Body Irradiation
+SC45,Preparation for Simple Radiotherapy with Imaging and Dosimetry
+SC46,"Preparation for Simple Radiotherapy with Imaging and Dosimetry, with Technical Support"
+SC47,Preparation for Simple Radiotherapy with Imaging and Simple Calculation
+SC48,"Preparation for Simple Radiotherapy with Imaging and Simple Calculation, with Technical Support"
+SC49,Preparation for Superficial Radiotherapy with Simple Calculation
+SC50,"Preparation for Superficial Radiotherapy with Simple Calculation, with Technical Support"
+SC51,Preparation for Complex Conformal Radiotherapy
+SC52,"Preparation for Complex Conformal Radiotherapy, with Technical Support"
+SC53,Preparation for Intraluminal Brachytherapy
+SC54,Preparation for Intracavitary Brachytherapy
+SC55,Preparation for Interstitial Brachytherapy
+SC56,Other External Beam Radiotherapy Preparation
+SC57,Other Brachytherapy Preparation
+SC97,Same Day External Beam Radiotherapy Admission or Attendance
+SD01,Inpatient Specialist Palliative Care
+SD02,Inpatient Specialist Palliative Care Same Day
+SD03,Hospital Specialist Palliative Care Support
+SD04,Medical Specialist Palliative Care Attendance
+SD05,Non-Medical Specialist Palliative Care Attendance
+UZ01,Invalid Primary Diagnosis: 1. Primary Diagnosis doesn't exist or 2. Primary Diagnosis Blank or 3. Diagnosis can't be used at primary position
+UZ02,Poorly Coded Primary Diagnosis: Diagnosis exists and valid at primary position. But they are so unspecific and the resource use can't be defined.
+UZ03,Age Conflicting with Diagnosis
+UZ04,Diagnosis conflicting with anatomical sites: The anatomical site specified at the 5th digit level conflicts with the diagnosis in the record.
+UZ05,Invalid Primary Procedures: Procedure doesn't exist or can't be used at primary position.
+UZ06,"Poorly Coded Primary Procedures: Procedure exists and valid at primary position, but too vague to determine the resource use."
+UZ11,Neonatal Critical Care Error
+UZ12,Paediatric Critical Care Error
+UZ13,Adult Critical Care Error
+UZ14,Renal (NRD) Error
+UZ21,CCAC Inappropriate for NCC
+UZ22,CCAC Inappropriate for PCC
+VA10,Multiple Trauma with No Interventions
+VA11,"Multiple Trauma with Interventions, score 1-8"
+VA12,"Multiple Trauma with Interventions, score 9-18"
+VA13,"Multiple Trauma with Interventions, score 19-29"
+VA14,"Multiple Trauma with Interventions, score 30-44"
+VA15,"Multiple Trauma with Interventions, score >=45"
+VB01,"Emergency Medicine, Any Investigation with category 5 Treatment"
+VB02,"Emergency Medicine, category 3 Investigation with category 4 Treatment"
+VB03,"Emergency Medicine, category 3 Investigation with category 1-3 Treatment"
+VB04,"Emergency Medicine, category 2 Investigation with category 4 Treatment"
+VB05,"Emergency Medicine, category 2 Investigation with category 3 Treatment"
+VB06,"Emergency Medicine, category 1 Investigation with category 3-4 Treatment"
+VB07,"Emergency Medicine, category 2 Investigation with category 2 Treatment"
+VB08,"Emergency Medicine, category 2 Investigation with category 1 Treatment"
+VB09,"Emergency Medicine, category 1 Investigation with category 1-2 Treatment"
+VB10,"Emergency Medicine, Dental Care"
+VB11,"Emergency Medicine, No Investigation with No Significant Treatment"
+VC01,"Assessment for Rehabilitation, Unidisciplinary"
+VC02,"Assessment for Rehabilitation, Multidisciplinary, Non-Specialist"
+VC03,"Assessment for Rehabilitation, Multidisciplinary, Specialist"
+VC04,Rehabilitation for Stroke
+VC06,Rehabilitation for Brain Injuries
+VC08,Rehabilitation for Spinal Cord Injuries
+VC10,Rehabilitation for Pain Syndromes
+VC12,Rehabilitation for Other Neurological Disorders
+VC14,Rehabilitation for Amputation of Limb
+VC16,Rehabilitation for Hip Fracture
+VC18,Rehabilitation for Joint Replacement
+VC20,Rehabilitation for Inflammatory Arthritis
+VC22,Rehabilitation for Non-Inflammatory Arthritis
+VC24,Rehabilitation for Other Musculoskeletal Disorders
+VC26,Rehabilitation for Drug and Alcohol Addiction
+VC28,Rehabilitation for Other Psychiatric Disorders
+VC30,Rehabilitation for Burns
+VC32,Rehabilitation following Head and Neck Reconstructive Surgery
+VC34,Rehabilitation following Other Reconstructive Surgery
+VC36,Rehabilitation for Other Trauma
+VC38,Rehabilitation for Acute Myocardial Infarction and Other Cardiac Disorders
+VC40,Rehabilitation for Respiratory Disorders
+VC42,Rehabilitation for Other Disorders
+WA01,Manifestations of HIV or AIDS
+WA02,Disorders of Immunity without HIV or AIDS
+WA03,Septicaemia
+WA04,Acute Febrile Illness
+WA05,Pyrexia of Unknown Origin
+WA06,Other Viral Illness
+WA07,Complex Infectious Diseases
+WA08,Malaria
+WA09,Other Non-Viral Infection
+WA10,Other Infections (Genito Urinary Medicine)
+WA11,"Poisoning, Toxic, Environmental and Unspecified Effects"
+WA12,Complications of Procedures
+WA14,Planned Procedures Not Carried Out
+WA15,Respite Care
+WA16,Shock and Anaphylaxis
+WA17,Other Admissions Related to Neoplasms
+WA18,Admission for Unexplained Symptoms
+WA19,Abnormal Findings without Diagnosis
+WA20,"Examination, Follow-up and Special Screening"
+WA21,Other Procedures and Health Care Problems
+WA22,Other Specified Admissions and Counselling
+WA23,Falls without Specific Cause
+WA24,Procedures on the Lymphatic System
+WD11,"All patients 70 years and older with a Mental Health Primary Diagnosis, treated by a Non-Specialist Mental Health Service Provider"
+WD22,"All patients between 19 and 69 years with a Mental Health Primary Diagnosis, treated by a Non-Specialist Mental Health Service Provider"
+WD33,"All patients 18 years and younger with a Mental Health Primary Diagnosis, treated by a Non-Specialist Mental Health Service Provider, NEC"
+WF01,Non-Admitted Unidisciplinary Attendance
+WF02,Non-Admitted Multiprofessional Attendance
+XA06,Neonatal Critical Care Transportation
+XB08,Paediatric Critical Care Transportation
+XD01,Primary Pulmonary Hypertension Drugs Band 1
+XD02,Primary Pulmonary Hypertension Drugs Band 2
+XD03,Primary Pulmonary Hypertension Drugs Band 3
+XD04,Primary Pulmonary Hypertension Drugs Band 4
+XD05,Blood Products Band 1
+XD06,Blood Products Band 2
+XD07,Fibrinolytic Drugs Band 1
+XD08,Medical Gases Band 1
+XD09,Torsion Dystonias and other Involuntary Movements Drugs Band 1
+XD10,Amyotrophic Lateral Sclerosis Drugs Band 1
+XD11,Anti Fungal Drugs Band 1
+XD12,Anti Fungal Drugs Band 2
+XD13,Hepatitis B Treatment Drugs Band 1
+XD14,Respiratory Syncytial Virus Treatment and Hepatitis C Treatment Drugs Band 1
+XD15,Respiratory Syncytial Virus Prevention Drugs Band 1
+XD16,Growth Hormone Receptor Antagonist Drugs Band 1
+XD17,Growth Hormone Analogue Drugs Band 1
+XD18,Bone Metabolism Drugs Band 1
+XD19,Monoclonal Antibodies Band 1
+XD20,Monoclonal Antibodies Band 2
+XD21,Immunomodulating Drugs Band 1
+XD22,Somatostatin Analogues Band 1
+XD23,Hypoplastic Haemolytic and Renal Anaemia Drugs Band 1
+XD24,Hypoplastic Haemolytic and Renal Anaemia Drugs Band 2
+XD25,Neutropenia Drugs Band 1
+XD26,Intravenous Nutrition Band 1
+XD27,Metabolic Disorder Drugs Band 1
+XD28,Metabolic Disorder Drugs Band 2
+XD29,Metabolic Disorder Drugs Band 3
+XD30,Metabolic Disorder Drugs Band 4
+XD31,Cytokine Inhibitor Drugs Band 1
+XD32,Hyperuricaemia Drugs Band 1
+XD33,Immune Response Drugs Band 1
+XD34,Immunoglobulins Band 1
+XD37,Pulmonary Surfactant Drugs Band 1
+XD38,Antiretroviral Drugs Band 1
+XD39,Mucolytic Drugs Band 1
+XD40,Hypnotic Drugs Band 1
+XD41,Analgesic Drugs Band 1
+XD42,Cytomegalovirus Drugs Band 1
+XD43,Platelet Disorder Drugs Band 1
+XD44,Protein Tyrosine Kinase Inhibitors Band 1
+XD45,Bone Morphogenetic Proteins Band 1
+XD46,Subfoveal Choroidal Neovascularisation Drugs Band 1
+XD47,Neurodegenerative Condition Drugs Band 1
+XD48,Vasopressin Antagonist Drugs Band 1
+XD49,Allergic Emergency Drugs Band 1
+XD50,Myelodysplastic Syndrome Drugs Band 1
+XD51,Allergen Immunotherapy Drugs Band 1
+XD52,Poison Management Drugs Band 1
