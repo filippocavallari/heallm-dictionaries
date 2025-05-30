@@ -1,6 +1,7 @@
 library(tidyverse)
 library(readxl)
 library(glue)
+library(fs)
 
 format_academic_year <- function(.year) {
   next_year_suffix <- str_sub(.year + 1, start = 3)
@@ -65,8 +66,8 @@ clean_hrg4_chapter <- function(.data) {
 write_hrg4_root <- function(.year) {
   output_dir <- "hrg-root-dictionaries"
   
-  if(!dir.exists(output_dir)) {
-    dir.create(output_dir)
+  if(!dir_exists(output_dir)) {
+    dir_create(output_dir)
   }
   
   output_path <-
@@ -80,8 +81,8 @@ write_hrg4_root <- function(.year) {
 write_hrg4_chapter <- function(.year) {
   output_dir <- "hrg-chapter-dictionaries"
   
-  if(!dir.exists(output_dir)) {
-    dir.create(output_dir)
+  if(!dir_exists(output_dir)) {
+    dir_create(output_dir)
   }
   
   output_path <-
