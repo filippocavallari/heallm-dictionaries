@@ -51,16 +51,19 @@ read_hrg4 <- function(.year, .sheet) {
 
 # map(2009:2025, read_hrg4_code_to_group)
 
-clean_hrg4_root <- function(.data) {
-  .data |>
-    select(hrg_root = `HRG Root`,
-           hrg_root_description = `HRG Root Description`)
-}
 
-clean_hrg4_chapter <- function(.data) {
-  .data |>
-    select(hrg_chapter = `HRG Chapter`,
-           hrg_chapter_description = `HRG Chapter Description`)
+clean_hrg4 <- function(.data, .type = c("root", "chapter")) {
+  .type <- match.arg(.type)
+  
+  if (.type == "root") {
+    .data |>
+      select(hrg_root = `HRG Root`,
+             hrg_root_description = `HRG Root Description`)
+  } else {
+    .data |>
+      select(hrg_chapter = `HRG Chapter`,
+             hrg_chapter_description = `HRG Chapter Description`)
+  }
 }
 
 write_hrg4 <- function(.year, .type = c("root", "chapter")) {
@@ -77,10 +80,7 @@ write_hrg4 <- function(.year, .type = c("root", "chapter")) {
   
   data <- read_hrg4(.year, .type)
   
-  cleaned <- if (.type == "root") 
-    clean_hrg4_root(data)
-  else
-    clean_hrg4_chapter(data)
+  cleaned <- clean_hrg4(data, .type)
   
   write_csv(cleaned, output_path)
 }
