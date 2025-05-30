@@ -9,16 +9,11 @@ format_academic_year <- function(.year) {
   glue("{.year}-{next_year_suffix}")
 }
 
-# map_chr(2009:2025, format_academic_year)
-
 format_path <- function(.year) {
   ext <- if_else(.year < 2013, "xls", "xlsx")
   
   glue("input/HRG4_{format_academic_year(.year)}_payment.{ext}")
 }
-
-# map_chr(2009:2025, format_path) |>
-#   map_lgl(file.exists)
 
 hrg_root_sheet <- function(.year) {
   format_path(.year) |>
@@ -31,7 +26,6 @@ hrg_chapter_sheet <- function(.year) {
     excel_sheets() |>
     keep(\(x) str_detect(x, "(?<!Sub)Chapter"))
 }
-# map_chr(2009:2025, hrg_root_sheet)
 
 read_hrg4 <- function(.year, .sheet) {
   path <- format_path(.year)
@@ -51,8 +45,6 @@ read_hrg4 <- function(.year, .sheet) {
     read_xlsx(path, sheet)
   }
 }
-
-# map(2009:2025, read_hrg4_code_to_group)
 
 clean_hrg4 <- function(.data, .type = c("root", "chapter")) {
   .type <- match.arg(.type)
