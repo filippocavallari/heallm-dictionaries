@@ -63,35 +63,27 @@ clean_hrg4_chapter <- function(.data) {
            hrg_chapter_description = `HRG Chapter Description`)
 }
 
-write_hrg4_root <- function(.year) {
-  output_dir <- "hrg-root-dictionaries"
+write_hrg4 <- function(.year, .type = c("root", "chapter")) {
+  .type <- match.arg(.type)
+  
+  output_dir <- glue("hrg-{.type}-dictionaries")
   
   if(!dir_exists(output_dir)) {
     dir_create(output_dir)
   }
   
-  output_path <-
-    str_c(output_dir, "/hrg-root-", format_academic_year(.year), ".csv")
+  output_path <- 
+    glue("{output_dir}/hrg-{.type}-{format_academic_year(.year)}.csv")
   
-  read_hrg4(.year, "root") |>
-    clean_hrg4_root() |>
-    write_csv(file = output_path)
+  data <- read_hrg4(.year, .type)
+  
+  cleaned <- if (.type == "root") 
+    clean_hrg4_root(data)
+  else
+    clean_hrg4_chapter(data)
+  
+  write_csv(cleaned, output_path)
 }
 
-write_hrg4_chapter <- function(.year) {
-  output_dir <- "hrg-chapter-dictionaries"
-  
-  if(!dir_exists(output_dir)) {
-    dir_create(output_dir)
-  }
-  
-  output_path <-
-    str_c(output_dir, "/hrg-chapter-", format_academic_year(.year), ".csv")
-  
-  read_hrg4(.year, "chapter") |>
-    clean_hrg4_chapter() |>
-    write_csv(file = output_path)
-}
-
-walk(2009:2025, write_hrg4_root)
-walk(2009:2021, write_hrg4_chapter)
+walk(2009:2025, \(year) write_hrg4(year, .type = "root"))
+walk(2009:2021, \(year) write_hrg4(year, .type = "chapter"))
