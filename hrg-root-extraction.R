@@ -93,6 +93,3 @@ write_hrg4_chapter <- function(.year) {
 
 walk(2009:2025, write_hrg4_root)
 walk(2009:2021, write_hrg4_chapter)
-
-
-map_chr(2009:2021, hrg_chapter_sheet)
