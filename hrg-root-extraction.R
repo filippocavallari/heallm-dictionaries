@@ -73,7 +73,6 @@ write_hrg4 <- function(.year, .type = c("root", "chapter")) {
   
   cli::cli_inform("Processing {.strong {toupper(.type)}} dictionary for year {.val {format_academic_year(.year)}}")
   
-  
   output_dir <- glue("hrg-{.type}-dictionaries")
   
   if(!dir_exists(output_dir)) {
