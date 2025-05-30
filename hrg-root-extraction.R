@@ -1,5 +1,6 @@
 library(tidyverse)
 library(readxl)
+library(glue)
 
 format_academic_year <- function(.year) {
   next_year_suffix <- str_sub(.year + 1, start = 3)
@@ -12,7 +13,7 @@ format_academic_year <- function(.year) {
 format_path <- function(.year) {
   ext <- if_else(.year < 2013, "xls", "xlsx")
   
-  str_c("input/HRG4_", format_academic_year(.year), "_payment.", ext, sep = "")
+  glue("input/HRG4_{format_academic_year(.year)}_payment.{ext}")
 }
 
 # map_chr(2009:2025, format_path) |>
