@@ -36,10 +36,14 @@ hrg_chapter_sheet <- function(.year) {
 read_hrg4 <- function(.year, .sheet) {
   path <- format_path(.year)
   
+  if (!file.exists(path)) {
+    cli::cli_abort("File not found: {.file {path}}")
+  }
+  
   sheet <- if (.sheet == "root")
     hrg_root_sheet(.year)
   else
-    sheet <- hrg_chapter_sheet(.year)
+    hrg_chapter_sheet(.year)
   
   if (.year < 2013) {
     read_xls(path, sheet)
@@ -67,6 +71,9 @@ clean_hrg4 <- function(.data, .type = c("root", "chapter")) {
 write_hrg4 <- function(.year, .type = c("root", "chapter")) {
   .type <- match.arg(.type)
   
+  cli::cli_inform("Processing {.strong {toupper(.type)}} dictionary for year {.val {format_academic_year(.year)}}")
+  
+  
   output_dir <- glue("hrg-{.type}-dictionaries")
   
   if(!dir_exists(output_dir)) {
@@ -81,6 +88,8 @@ write_hrg4 <- function(.year, .type = c("root", "chapter")) {
   cleaned <- clean_hrg4(data, .type)
   
   write_csv(cleaned, output_path)
+  
+  cli::cli_alert_success("Written to {.file {output_path}}")
 }
 
 walk(2009:2025, \(year) write_hrg4(year, .type = "root"))
