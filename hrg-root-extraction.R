@@ -15,16 +15,18 @@ format_path <- function(.year) {
   glue("input/HRG4_{format_academic_year(.year)}_payment.{ext}")
 }
 
-hrg_root_sheet <- function(.year) {
+hrg_sheet <- function(.year, .type = c("root", "chapter")) {
+  .type <- match.arg(.type)
+  
+  pattern <- if (.type == "root") {
+    "(?<!Intro to )Group (T|t)o Split"
+  } else {
+    "(?<!Sub)Chapter"
+  }
+  
   format_path(.year) |>
     excel_sheets() |>
-    keep(\(x) str_detect(x, "(?<!Intro to )Group (T|t)o Split"))
-}
-
-hrg_chapter_sheet <- function(.year) {
-  format_path(.year) |>
-    excel_sheets() |>
-    keep(\(x) str_detect(x, "(?<!Sub)Chapter"))
+    keep(\(x) str_detect(x, pattern))
 }
 
 read_hrg4 <- function(.year, .sheet) {
@@ -34,10 +36,7 @@ read_hrg4 <- function(.year, .sheet) {
     cli::cli_abort("File not found: {.file {path}}")
   }
   
-  sheet <- if (.sheet == "root")
-    hrg_root_sheet(.year)
-  else
-    hrg_chapter_sheet(.year)
+  sheet <- hrg_sheet(.year, .sheet)
   
   if (.year < 2013) {
     read_xls(path, sheet)
