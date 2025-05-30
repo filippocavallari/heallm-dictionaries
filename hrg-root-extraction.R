@@ -36,11 +36,10 @@ hrg_chapter_sheet <- function(.year) {
 read_hrg4 <- function(.year, .sheet) {
   path <- format_path(.year)
   
-  if (.sheet == "root"){
-    sheet <- hrg_root_sheet(.year)
-  } else {
+  sheet <- if (.sheet == "root")
+    hrg_root_sheet(.year)
+  else
     sheet <- hrg_chapter_sheet(.year)
-  }
   
   if (.year < 2013) {
     read_xls(path, sheet)
