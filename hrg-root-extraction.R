@@ -4,7 +4,7 @@ library(glue)
 library(fs)
 
 # Format academic year as "YYYY-YY"
-hrg_academic_year <- function(.year) {
+format_academic_year <- function(.year) {
   next_year_suffix <- str_sub(.year + 1, start = 3)
   glue("{.year}-{next_year_suffix}")
 }
@@ -12,7 +12,7 @@ hrg_academic_year <- function(.year) {
 # Generate file path for a given year
 hrg_path <- function(.year) {
   ext <- if_else(.year < 2013, "xls", "xlsx")
-  glue("input/HRG4_{hrg_academic_year(.year)}_payment.{ext}")
+  glue("input/HRG4_{format_academic_year(.year)}_payment.{ext}")
 }
 
 # Get the relevant sheet name based on type
@@ -42,7 +42,7 @@ hrg_read <- function(.year, .type = c("root", "chapter")) {
   sheet <- hrg_get_sheet(.year, .type)
   
   if (length(sheet) != 1) {
-    cli::cli_abort("Expected exactly one matching sheet for {.val {hrg_academic_year(.year)}}, found {length(sheet)}.")
+    cli::cli_abort("Expected exactly one matching sheet for {.val {format_academic_year(.year)}}, found {length(sheet)}.")
   }
   
   if (.year < 2013) {
@@ -71,7 +71,7 @@ hrg_clean <- function(.data, .type = c("root", "chapter")) {
 hrg_write <- function(.year, .type = c("root", "chapter")) {
   .type <- match.arg(.type)
   
-  cli::cli_inform("Processing {.strong {toupper(.type)}} dictionary for year {.val {hrg_academic_year(.year)}}")
+  cli::cli_inform("Processing {.strong {toupper(.type)}} dictionary for year {.val {format_academic_year(.year)}}")
   
   output_dir <- glue("hrg-{.type}-dictionaries")
   
@@ -79,7 +79,7 @@ hrg_write <- function(.year, .type = c("root", "chapter")) {
     dir_create(output_dir)
   }
   
-  output_path <- glue("{output_dir}/hrg-{.type}-{hrg_academic_year(.year)}.csv")
+  output_path <- glue("{output_dir}/hrg-{.type}-{format_academic_year(.year)}.csv")
   
   data <- hrg_read(.year, .type)
   cleaned <- hrg_clean(data, .type)
