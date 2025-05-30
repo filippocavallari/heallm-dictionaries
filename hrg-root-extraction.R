@@ -45,11 +45,8 @@ hrg_read <- function(.year, .type = c("root", "chapter")) {
     cli::cli_abort("Expected exactly one matching sheet for {.val {format_academic_year(.year)}}, found {length(sheet)}.")
   }
   
-  if (.year < 2013) {
-    read_xls(path, sheet)
-  } else {
-    read_xlsx(path, sheet)
-  }
+  read_fun <- if (.year < 2013) read_xls else read_xlsx
+  read_fun(path, sheet)
 }
 
 # Clean HRG data
