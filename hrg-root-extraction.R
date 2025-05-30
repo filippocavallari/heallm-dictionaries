@@ -5,8 +5,8 @@ library(fs)
 
 format_academic_year <- function(.year) {
   next_year_suffix <- str_sub(.year + 1, start = 3)
-  
-  str_c(.year, "-", next_year_suffix, sep = "")
+
+  glue("{.year}-{next_year_suffix}")
 }
 
 # map_chr(2009:2025, format_academic_year)
