@@ -24,12 +24,21 @@ hrg_root_sheet <- function(.year) {
     keep(\(x) str_detect(x, "(?<!Intro to )Group (T|t)o Split"))
 }
 
+hrg_chapter_sheet <- function(.year) {
+  format_path(.year) |>
+    excel_sheets() |>
+    keep(\(x) str_detect(x, "(?<!Sub)Chapter"))
+}
 # map_chr(2009:2025, hrg_root_sheet)
 
-read_hrg4_code_to_group <- function(.year) {
+read_hrg4 <- function(.year, .sheet) {
   path <- format_path(.year)
   
-  sheet <- hrg_root_sheet(.year)
+  if (.sheet == "root"){
+    sheet <- hrg_root_sheet(.year)
+  } else {
+    sheet <- hrg_chapter_sheet(.year)
+  }
   
   if (.year < 2013) {
     read_xls(path, sheet)
@@ -40,13 +49,19 @@ read_hrg4_code_to_group <- function(.year) {
 
 # map(2009:2025, read_hrg4_code_to_group)
 
-clean_hrg4_code_to_group <- function(.data) {
+clean_hrg4_root <- function(.data) {
   .data |>
     select(hrg_root = `HRG Root`,
            hrg_root_description = `HRG Root Description`)
 }
 
-write_hrg4_code_to_group <- function(.year) {
+clean_hrg4_chapter <- function(.data) {
+  .data |>
+    select(hrg_chapter = `HRG Chapter`,
+           hrg_chapter_description = `HRG Chapter Description`)
+}
+
+write_hrg4_root <- function(.year) {
   output_dir <- "hrg-root-dictionaries"
   
   if(!dir.exists(output_dir)) {
@@ -56,9 +71,28 @@ write_hrg4_code_to_group <- function(.year) {
   output_path <-
     str_c(output_dir, "/hrg-root-", format_academic_year(.year), ".csv")
   
-  read_hrg4_code_to_group(.year) |>
-    clean_hrg4_code_to_group() |>
+  read_hrg4(.year, "root") |>
+    clean_hrg4_root() |>
     write_csv(file = output_path)
 }
 
-walk(2009:2025, clean_write_hrg4_code_to_group)
+write_hrg4_chapter <- function(.year) {
+  output_dir <- "hrg-chapter-dictionaries"
+  
+  if(!dir.exists(output_dir)) {
+    dir.create(output_dir)
+  }
+  
+  output_path <-
+    str_c(output_dir, "/hrg-chapter-", format_academic_year(.year), ".csv")
+  
+  read_hrg4(.year, "chapter") |>
+    clean_hrg4_chapter() |>
+    write_csv(file = output_path)
+}
+
+walk(2009:2025, write_hrg4_root)
+walk(2009:2021, write_hrg4_chapter)
+
+
+map_chr(2009:2021, hrg_chapter_sheet)
